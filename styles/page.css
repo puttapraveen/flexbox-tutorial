@@ -1,0 +1,538 @@
+.button {
+  padding: 1.2rem;
+}
+
+.button.white {
+  background: white;
+  color: black;
+}
+
+.button.black {
+  background: #36312e;
+  color: white;
+}
+
+.button.primary {
+  background: #f46158;
+  
+}
+
+.light-orange {
+  background: #f0e6e2;
+  padding: 2rem 2rem 2rem;
+}
+
+.light-purple {
+  background: #f8f1ff;
+  padding: 2rem 2rem 2rem;
+ 
+}
+
+.light-brown {
+  background: firebrick;
+  color: #f0e6e2;
+  padding: 2rem 2rem 2rem;
+
+}
+
+.primary {
+  background: #f46158;
+  color: #f0e6e2;
+
+  padding: 2rem 2rem 2rem;
+
+}
+
+.secondary {
+  background: #36312e;
+}
+
+.header {
+  color:#191970;
+  background: #f0e6e2;
+  font-weight: bold;
+}
+
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2.8rem 2rem;
+}
+
+.header .nav .logo__title {
+  font-size: 1.4rem;
+  margin-left: 5rem;
+}
+
+.header .nav .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.header .nav .navbar .nav-element {
+  padding-right: 2rem;
+}
+
+.header .nav .navbar .nav-element:last-of-type {
+  padding-right: 0;
+}
+
+.header .nav .navbar .nav-element a {
+  text-decoration: none;
+}
+
+.header .nav .navbar .nav-element .link {
+  color: #36312e;
+}
+
+.header .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+}
+
+.header .hero__title {
+  font-size: 4rem;
+  margin-left: 60px;
+}
+
+.header .action__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 8rem;
+  width: 100%;
+
+}
+
+.header .action__container .partner__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.header .action__container .partner__container .partner {
+  width: 100px;
+}
+
+.header .action__container .search__container {
+  height: 8rem;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: stretch;
+          
+}
+
+
+.companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 2rem 4rem;
+}
+
+.companies .company {
+  width: 100px;
+  opacity: 0.8;
+}
+
+.explore {
+  padding: 2rem 2rem;
+  
+}
+.explore ul li:hover{
+  color:#fff;
+  text-decoration: none;
+}
+
+.explore__header {
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+}
+
+.explore__title {
+  width: 20rem;
+  margin-left: 4rem;
+  font-size: 2.6rem;
+  color: black;
+}
+.explore__cards img{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 50px;
+  height: auto;
+}
+
+.explore__cards h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 100%;
+  height: auto;
+}
+.explore__cards p{
+  font-size: 12px;
+  
+}
+.explore__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.explore__cards .card {
+  width: 250px;
+  height: 250px;
+}
+
+.findjobs{
+
+  background-color:#f0e6e2;
+  height: 2250px;
+  width: 100%;
+}
+.find{
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 0;
+  
+}
+.find .text{
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+h3{
+  color: #f46158;
+  padding-top: 100px;
+  margin-left: 120px;
+}
+.find{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  margin-top: 30px;
+  font-size: 3em;
+
+}
+
+.findjobs .find .text h1{
+  width: 300px;
+}
+.showb{
+  margin-top: 20px;
+  margin-right:80px ;
+  font-size: 8px;
+}
+.btn-primary{
+  height: 70px;
+  width: 200px;
+  background-color: red;
+}
+.show{
+  background-color: red;
+  color: #f0e6e2;
+  width: 200px;
+  padding: 20px 40px 20px;
+}
+.findjobs.find.button.showb{
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+      flex: 1;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: end;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+.displays{
+  padding: 2em;
+}
+.row1 {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.row2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+.displays .c1 {
+  width: 330px;
+  height: 240px;
+}
+.product {
+  background: #f8f1ff;
+  display: flex; 
+   
+}
+.c1 h1{
+padding: 30px 30px 10px;
+color: black;
+font-size: 22px;
+}
+.head-of{
+  color: grey;
+  display: flex;
+  margin-left: -15px;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 10px;
+}
+.head-of .head1 h5,.head2 h5{
+  font-size: 10px;
+  margin-top:5px ;
+
+}
+.head1,.head2{
+  display: flex;
+
+}
+.c1{
+  background: white;
+
+}
+.foot{
+  display: flex;
+  justify-content: space-between;
+}
+
+.start{
+  color: black;
+  display: flex;
+  font-size: 10px;
+  margin-left: 30px;
+
+}
+.start .brand{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.foot .end h6{
+font-size: 10px;
+}
+.foot .end{
+  color: grey;
+  align-self: flex-end;
+  margin-right: 50px;
+  margin-bottom: 5px;
+}
+.showoff{
+  display: flex;
+  margin-right: 0px;
+}
+.whiteback{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 1250px;
+  width: 60%;
+  margin-top: 100px;
+  display: block;
+
+}
+.asamt{
+  width: 80%;
+  height: 300px;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.asamt .icona{
+  margin-left: 100px;
+}
+.icona img{
+  height:80px;
+  width:80px;
+  margin-top: 65px;
+
+}
+.asamt .texta{
+  margin-top: 70px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.head-off{
+  display: flex;
+
+}
+
+.head-off{
+  width: 60%;
+  margin-top: 10px;
+  color: grey;
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  justify-content: space-between;
+}
+.head-off .head1 h5,.head2 h5,.head3 h5{
+  font-size: 10px;
+  margin-top:5px ;
+
+}
+.head1,.head2,.head3{
+  display: flex;
+
+}
+.asamt .texta h1{
+  font-size: 30px;
+}
+.head1{
+  justify-self: flex-start;
+}
+.head3{
+  justify-self: flex-end;
+}
+.falcona{
+  background-color: #f0e6e2;
+  width: 80%;
+  height: 250px;
+  margin-left: 80px;
+  display: flex;
+  align-items: flex-start;
+}
+.falcona .textaa{
+  margin-left: 20px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+p4{
+  font-size: 15px;
+  color: gray;
+}
+.iconaa img{
+  margin-left: 50px;
+  height:80px;
+  width:80px;
+  margin-top: 65px;
+}
+
+.asamt1{
+  width: 80%;
+  height: 250px;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.asamt1 .icona{
+  margin-left: 100px;
+}
+.icona img{
+  height:80px;
+  width:80px;
+  margin-top: 65px;
+
+}
+.asamt1 .texta{
+  margin-top: 70px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.memory{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.memory .icona{
+  margin-left: 100px;
+}
+.memory .texta{
+  margin-top: 70px;
+  margin-left: 20px;
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+}
+
+.firsttext{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width:400px;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.startu h4{
+  font-size: 15px;
+  color: red;
+}
+.back{
+  margin-left: 50px;
+  height: 200px;
+  width: 70%;
+  background-color: #f46158
+  
+}
+.whit-side{
+  display: flex;
+  flex-direction: column;
+}
+.imagess{
+  width: 108%;
+  height: 70%;
+  background-color: white;
+}
+/*# sourceMappingURL=page.css.map */
