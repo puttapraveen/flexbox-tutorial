@@ -454,11 +454,15 @@ font-size: 10px;
   margin-left: 20px;
   margin-top: 60px;
   display: flex;
+  color: black;
   flex-direction: column;
 }
 p4{
   font-size: 15px;
   color: gray;
+}
+.falcona .textaa p4{
+  color:black;
 }
 .iconaa img{
   margin-left: 50px;
@@ -478,12 +482,17 @@ p4{
   margin-left: 100px;
 }
 .icona img{
-  height:80px;
-  width:80px;
+  height:70px;
+  width:70px;
   margin-top: 65px;
 
 }
+.head1{
+  font-size: 22px;
+
+}
 .asamt1 .texta{
+  font-size: 30px;
   margin-top: 70px;
   margin-left: 20px;
   display: flex;
@@ -535,4 +544,98 @@ p4{
   height: 70%;
   background-color: white;
 }
+.anonymous1{
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 1200px;
+}
+
+.anonymous{
+  position: absolute;
+  margin-top: 590px;
+  margin-left: 728px;
+}
+.anonymous2{
+  position: absolute;
+  margin-top: 900px;
+  margin-left: 1050px;
+}
+.showoff .btn-primary{
+  font-size: 10px;
+  width: 220px;
+  position: absolute;
+  margin-top: 1150px;
+  margin-left: 770px;
+}
+.back-last{
+  margin-top: 100px;
+  display: flex;
+  margin-left: 150px;
+  background-image: url(/img/end.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.you-are{
+  color: white;
+  margin-left: 350px;
+  width: 400px;
+}
+
+.search-button{
+  display: flex;
+  justify-content: center;
+}
+.search-button input{
+  height: 60px;
+  width:200px;
+  font-size: 10px;
+  border: none;
+  padding: 10px 30px 10px;
+  margin-top: 8px;
+  color: #f0e6e2;
+  background-color: black;
+}
+.search-button button
+{
+  height: 60px;
+  width: 120px;
+  margin-top: 8px;
+  font-size: 10px;
+  
+  color: #f0e6e2;
+  background-color: tomato;
+  padding: 6px;
+  border: none;
+}
+.footer img{
+  align-self: flex-start;
+}
+.footer ul li{
+justify-self:flex-end ;
+display: inline;
+}
+.footer{
+  color: gray;
+  width: 100%;
+  padding: 100px 150px 100px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.last{
+margin-left: auto;
+}
+.footer ul li{
+padding: 20px;
+display: inline;
+
+}
+
+
 /*# sourceMappingURL=page.css.map */
